@@ -1,3 +1,7 @@
+html {
+	overflow-x: hidden;
+}
+
 @media screen and (min-width: 1200px) {
 	.container { max-width: 1600px; }
 	.container.type-b { max-width: 1760px; }
@@ -31,7 +35,9 @@
 
 .box-logo {
 	width: 100%;
+	width: 100vw;
 	height: 1145px;
+	height: 100vh;
 	margin-bottom: 150px;
 	display: flex;
 	align-items: center;
@@ -63,6 +69,7 @@
 
 .box-video {
 	width: 100%;
+	width: 100vw;
 	height: 0;
 	max-width: 1280px;
 	padding-top: 30px;
@@ -84,8 +91,9 @@
 /* BOX DE TEXTO */
 
 .box-texto {
+	width: 100%;
+	width: 100vw;
 	height: 850px;
-	margin: 0 -80px;
 	display: flex;
 	position: relative;
 	background-color: #03245D;
@@ -157,6 +165,7 @@
 
 .box-texto-simples {
 	width: 100%;
+	width: 100vw;
 	height: 850px;
 	text-align: center;
 	display: flex;
@@ -176,6 +185,8 @@
 /* BOX DE TEXTO 2 */
 
 .box-texto-2 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 201px;
 	position: relative;
 	background-color: #fff;
@@ -213,6 +224,8 @@
 /* BOX DE TEXTO 3 */
 
 .box-texto-3 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 270px;
 	position: relative;
 	background-color: #fff;
@@ -254,6 +267,8 @@
 /* BOX DE TEXTO 4 */
 
 .box-texto-4 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 336px;
 	position: relative;
 	background-color: #fff;
@@ -306,6 +321,8 @@
 /* BOX DE TEXTO 5 */
 
 .box-texto-5 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 234px;
 }
 .box-texto-5__wrapper {
@@ -373,6 +390,8 @@
 /* BOX DE TEXTO 6 */
 
 .box-texto-6 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 270px;
 	position: relative;
 	background-color: #fff;
@@ -414,6 +433,8 @@
 /* BOX DE TEXTO 7 */
 
 .box-texto-7 {
+	width: 100%;
+	width: 100vw;
 	background-color: #fff;
 }
 .box-texto-7__wrapper {
@@ -458,6 +479,8 @@
 /* BOX CARROSSEL */
 
 .box-carrossel {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 292px;
 	padding: 181px 0 0;
 }
@@ -507,6 +530,8 @@
 /* BOX DE TEXTO 8 */
 
 .box-texto-8 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 263px;
 	position: relative;
 	background-color: #fff;
@@ -548,6 +573,8 @@
 /* BOX DE TEXTO 9 */
 
 .box-texto-9 {
+	width: 100%;
+	width: 100vw;
 	margin-bottom: 168px;
 	position: relative;
 	background-color: #fff;
@@ -599,6 +626,8 @@
 /* BOX DE TEXTO 10 */
 
 .box-texto-10 {
+	width: 100%;
+	width: 100vw;
 	padding: 170px 0 120px;
 	position: relative;
 	background-color: #F3F3F3;
@@ -636,6 +665,7 @@
 
 footer.single-page-footer {
 	width: 100%;
+	width: 100vw;
 	background-color: #03245D;
 }
 .single-page-footer .container-fluid {
