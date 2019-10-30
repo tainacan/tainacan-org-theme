@@ -10,7 +10,7 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/single_page.css'; ?>" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/single_page.css'; ?>" type="text/css" media="all" />
 </head>
 
 <body <?php body_class(); ?>>
@@ -32,7 +32,7 @@
 
 	<div class="box-logo">
 		<div class="box-logo__texto">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/lgo/tainacan.png'; ?>" alt="Tainacan">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/lgo/tainacan.png'; ?>" alt="Tainacan">
 			<span>Uma plataforma<br>de repositório<br><strong>flexível e potente</strong><br>para Wordpress</span>
 		</div>
 	</div>
@@ -43,7 +43,7 @@
 
 	<div class="box-texto">
 		<div class="box-texto__imagem">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas.png' ?>" alt="Janelas">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas.png' ?>" alt="Janelas">
 		</div>
 		<div class="box-texto__texto">
 			<p>Tainacan é uma ferramenta flexível e poderosa para WordPress que permite agestão e a publicação de coleções digitais com a mesma facilidade de se publicar posts em blogs, mas mantendo todos os requisitos de uma plataforma profissional para repositórios.</p>
@@ -66,7 +66,7 @@
 				<p>O Tainacan é composto pelo plugin, em que o usuário administrativo realiza a gestão de seu acervo, e o tema padrão, que é o modo de visualização do conteúdo criado por meio do plugin, sendo acessível para todos os tipos de usuário.</p>
 			</div>
 			<div class="box-texto-2__imagem">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas2.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas2.png' ?>" alt="Janelas">
 			</div>
 		</div>
 	</div>
@@ -74,7 +74,7 @@
 	<div class="box-texto-3">
 		<div class="box-texto-3__wrapper">
 			<div class="box-texto-3__imagem">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas3.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas3.png' ?>" alt="Janelas">
 			</div>
 			<div class="box-texto-3__texto">
 				<h2>Fácil organização</h2>
@@ -86,14 +86,14 @@
 	<div class="box-texto-4">
 		<div class="box-texto-4__wrapper">
 			<div class="box-texto-4__imagem1">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas4.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas4.png' ?>" alt="Janelas">
 			</div>
 			<div class="box-texto-4__texto">
 				<h2>Navegação intuitiva</h2>
 				<p>A organização do Plugin Tainacan foi toda pensada para facilitar o aprendizado e uso da ferramenta, com cores como diferenciação de áreas e ícones personalisados, além dos já disponibilisados pela Google no sistema Material.</p>
 			</div>
 			<div class="box-texto-4__imagem2">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas5.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas5.png' ?>" alt="Janelas">
 			</div>
 		</div>
 	</div>
@@ -101,7 +101,7 @@
 	<div class="box-texto-5">
 		<div class="box-texto-5__wrapper">
 			<div class="box-texto-5__imagem">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas6.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas6.png' ?>" alt="Janelas">
 			</div>
 
 			<div class="box-texto-5__texto1">
@@ -122,7 +122,7 @@
 				<p>Gerencie vocabulários (controlados ou não) que podem ser compartilhados por todas as suas coleções.</p>
 			</div>
 			<div class="box-texto-6__imagem">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas7.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas7.png' ?>" alt="Janelas">
 			</div>
 		</div>
 	</div>
@@ -132,7 +132,7 @@
 			<h2>Temas</h2>
 
 			<div class="box-texto-7__imagem">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas8.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas8.png' ?>" alt="Janelas">
 			</div>
 		</div>
 
@@ -156,67 +156,67 @@
 			<ul class="carrossel-cases">
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_01.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_01.png' ?>" alt="Imagem">
 						<span>Novo site da Funarte</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_02.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_02.png' ?>" alt="Imagem">
 						<span>Museu Histórico Nacional</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_03.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_03.png' ?>" alt="Imagem">
 						<span>Museu de Arqueologia de Itaipu</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_04.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_04.png' ?>" alt="Imagem">
 						<span>Museu do Índio</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_01.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_01.png' ?>" alt="Imagem">
 						<span>Novo site da Funarte</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_02.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_02.png' ?>" alt="Imagem">
 						<span>Museu Histórico Nacional</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_03.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_03.png' ?>" alt="Imagem">
 						<span>Museu de Arqueologia de Itaipu</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_04.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_04.png' ?>" alt="Imagem">
 						<span>Museu do Índio</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_01.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_01.png' ?>" alt="Imagem">
 						<span>Novo site da Funarte</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_02.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_02.png' ?>" alt="Imagem">
 						<span>Museu Histórico Nacional</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/fke/carrossel_03.png' ?>" alt="Imagem">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/fke/carrossel_03.png' ?>" alt="Imagem">
 						<span>Museu de Arqueologia de Itaipu</span>
 					</a>
 				</li>
@@ -227,7 +227,7 @@
 	<div class="box-texto-8">
 		<div class="box-texto-8__wrapper">
 			<div class="box-texto-8__imagem">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/bkg/box_janelas9.png' ?>" alt="Janelas">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/bkg/box_janelas9.png' ?>" alt="Janelas">
 			</div>
 			<div class="box-texto-8__texto">
 				<h2>API e interoperabilidade</h2>
@@ -246,13 +246,13 @@
 			</div>
 			<ul class="box-texto-9__imagem-lista">
 				<li>
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/ico/tags.png' ?>" alt="GitHub">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/ico/tags.png' ?>" alt="GitHub">
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/ico/documento.png' ?>" alt="Wiki">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/ico/documento.png' ?>" alt="Wiki">
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/ico/email.png' ?>" alt="Riseup">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/ico/email.png' ?>" alt="Riseup">
 				</li>
 			</ul>
 		</div>
@@ -263,13 +263,13 @@
 			<ul class="box-texto-10__imagem-lista">
 				<li class="estilo-1">
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/ico/baixar.png' ?>" alt="Plugin Tainacan">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/ico/baixar.png' ?>" alt="Plugin Tainacan">
 						<span>Plugin<br>Tainacan</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/single_page/ico/baixar2.png' ?>" alt="Tema Tainacan">
+						<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/single_page/ico/baixar2.png' ?>" alt="Tema Tainacan">
 						<span>Tema<br>Tainacan</span>
 					</a>
 				</li>
@@ -285,7 +285,7 @@
 					<p>E-mail: tainacansuporte@gmail.com - Telefone: +55 (62) 3521-1659</p>
 				</div>
 				<div class="col-auto pr-0 pr-md-3 d-none d-md-block align-self-md-top">
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/logo-footer.svg' ?>" class="tainacan-footer-info--logo">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/logo-footer.svg' ?>" class="tainacan-footer-info--logo">
 				</div>
 				<div class="col-12 tainacan-powered">
 					<span></span>
